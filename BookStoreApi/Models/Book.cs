@@ -14,6 +14,7 @@ public class Book
     [JsonPropertyName("Name")]
     public string BookName { get; set; } = null!;
 
+    // book details
     public decimal Price { get; set; }
 
     public string Category { get; set; } = null!;
